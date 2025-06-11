@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $opinion = [
-"titulo" => "Titulo 4",
-"autor" => "Autor 4",
-"resumen" => "Resumen 4",
+  "titulo" => "La democracia necesita ciudadanos, no solo votantes",
+  "autor" => "Dr. Felipe Romero - Analista Político",
+  "resumen" => "En tiempos de polarización, es vital reforzar la educación cívica y el pensamiento crítico para fortalecer la participación ciudadana.",
+  "imagen" => "https://cdn.pixabay.com/photo/2020/01/25/08/46/ballot-4792661_1280.jpg"
 ];
 ?>
