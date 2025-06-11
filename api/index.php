@@ -54,28 +54,18 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
-              <strong class="d-inline-block mb-2 text-primary">Internacional</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">
-                  <?php
-                    echo $internacional["titulo"];
-                  ?>
-                </a>
-              </h3>
-              <div class="mb-1 text-muted">
-                <?php
-                  echo $internacional["autor"];
-                ?>
-              </div>
-              <p class="card-text mb-auto">
-                <?php
-                  echo $internacional["resumen"];
-                ?>
-              </p>
-            </div>
-          </div>
+          <div class="card flex-md-row mb-4 shadow-sm">
+  <img class="card-img-left flex-auto d-none d-lg-block" src="<?php echo $internacional['imagen']; ?>" style="width: 200px; height: auto; object-fit: cover;" alt="Internacional">
+  <div class="card-body d-flex flex-column align-items-start col-md-8">
+    <strong class="d-inline-block mb-2 text-primary">Internacional</strong>
+    <h3 class="mb-0">
+      <a class="text-dark" href="#"><?php echo $internacional["titulo"]; ?></a>
+    </h3>
+    <div class="mb-1 text-muted"><?php echo $internacional["autor"]; ?></div>
+    <p class="card-text mb-auto"><?php echo $internacional["resumen"]; ?></p>
+  </div>
+</div>
+
         </div>
         <div class="col-md-6">
           <div class="card flex-md-row mb-4 shadow-sm ">
