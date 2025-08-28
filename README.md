@@ -19,7 +19,7 @@ Es una plantilla o demostración para desplegar aplicaciones PHP utilizando Verc
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/DarlynZen/Vercel_Deploy.git
+   git clone https://github.com/DarlynJeniferAsmadChia/Vercel_Deploy.git
    cd Vercel_Deploy
    ```
 
